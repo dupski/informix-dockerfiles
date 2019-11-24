@@ -6,7 +6,7 @@
 1 - Put Informix product in ```informix-db``` directory and name it informix.tar
 ```
 cd informix-db
-cp <informix product> informix.tar 
+cp <informix product> iif.tar 
 ```
 
 2 - Run the Build phase
