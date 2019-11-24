@@ -47,8 +47,8 @@ fi
 ###
 ###  Starting ssh
 ###
-MSGLOG ">>>    Starting sshd ..." N
-sudo service ssh start
+# MSGLOG ">>>    Starting sshd ..." N
+# sudo service ssh start
 
 ###
 ### Add env script to ~informix/.bashrc 
