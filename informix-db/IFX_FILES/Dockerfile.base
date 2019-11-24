@@ -48,8 +48,6 @@ ADD    sch_init_informix.small.sql              /opt/hcl/sql
 ADD    sch_init_informix.medium.sql             /opt/hcl/sql
 ADD    sch_init_informix.large.sql              /opt/hcl/sql
 
-VOLUME     ["/opt/hcl/data"]
-
 HEALTHCHECK --interval=10s --timeout=5s --retries=1 --start-period=60s CMD /opt/hcl/scripts/informix_status.sh  || exit 1
 
 USER informix
