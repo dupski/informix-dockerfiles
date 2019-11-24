@@ -80,7 +80,7 @@ EXPOSE 9088 9089 27017 27018 27883
 ###         
 ###         Ex:  0x061  - Enables PORT_SQLEXEC, PORT_REST, PORT_MQTT        
 
-ENTRYPOINT ["/opt/hcl/dinit", "/opt/hcl/scripts/informix_entry.sh", "0x73", "/opt/hcl/scripts/informix_stop.sh"]
+ENTRYPOINT ["/opt/hcl/scripts/informix_entry.sh", "0x73", "/opt/hcl/scripts/informix_stop.sh"]
 CMD [""]
 
 
