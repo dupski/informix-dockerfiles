@@ -40,8 +40,6 @@ bin/dbaccessdemo*
 bin/check_version
 bin/chkenv
 bin/crtcmap
-bin/dbexport
-bin/dbimport
 bin/dbload
 bin/dbschema
 bin/drdaprint
