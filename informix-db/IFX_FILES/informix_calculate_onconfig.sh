@@ -75,7 +75,7 @@ fi
 #echo "vCPUS_LIMIT = $vCPUS_LIMIT"
 
 setCPUResources
-setMEMResources
+# setMEMResources
 setGenericResources
 
 }
