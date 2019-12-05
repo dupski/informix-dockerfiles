@@ -76,7 +76,7 @@ fi
 
 setCPUResources
 # setMEMResources
-setGenericResources
+# setGenericResources
 
 }
 
